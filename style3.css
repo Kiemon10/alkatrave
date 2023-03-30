@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #444;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main-menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu li {
+    margin-right: 20px;
+}
+
+.main-menu li:last-child {
+    margin-right: 0;
+}
+
+.main-menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main-menu li a:hover {
+    background-color: #fff;
+    color: #444;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    width: 200px;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.sub-menu li {
+    margin: 0;
+    padding: 0;
+}
+
+.sub-menu li a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.sub-menu li a:hover {
+    background-color: #555;
+}
+
+.main-menu li:hover .sub-menu {
+    display: block;
+}
+
+.breadcrumbs {
+    background-color: #eee;
+    padding: 10px 20px;
+    margin-top: 70px;
+}
+
+.breadcrumbs a {
+    color: #444;
+    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+#art {
+    margin: 20px 20px 0
+}
