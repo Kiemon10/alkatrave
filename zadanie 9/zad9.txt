@@ -1,0 +1,9 @@
+Zad 9. Korzystając z pełnych możliwości tworzenia struktury w HTML5,
+przygotuj szablon (strukturę dokumentu), który będzie zawierać: nagłówek z
+logiem, poziome menu główne, pionowe pod-menu, „okruszki” (czyli ścieżkę,
+gdzie aktualnie jesteśmy w serwisie), obszar na najczęściej czytane artykuły,
+obszar na 4 polecane artykuły, obszar na 4 ostatnie wpisy z blogów autorów i
+stopkę. Do obszarów wstaw przykładowe treści, zakładamy, że ostatni wpis czy
+polecany artykuł składa się tytułu i 2 linijek wstępu. Zadanie polega przede
+wszystkim na przemyśleniu struktury i odpowiednim zastosowaniu znaczników
+HTML5.
